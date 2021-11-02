@@ -162,3 +162,58 @@ section.company h2 {
   width: 82%;
   margin: 0 auto;
 }
+
+/* company section */
+section.member {
+  background: #82c274;
+  padding: 7rem 0;
+  color: white !important;
+}
+
+section.member h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+/* member section */
+.member-card {
+  background-color: white;
+  width: 300px;
+  height: 400px;
+  border-radius: 12px;
+  position: relative;
+  color: black;
+}
+
+.member-card img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.member-info {
+  position: absolute;
+  width: 70%;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.member-info h2 {
+  white-space: nowrap;
+  font-size: 25px !important;
+  margin-bottom: 20px;
+}
+
+.member-info p {
+  color: #54afd7;
+  font-weight: bold;
+}
+
+.member-info span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 31px;
+}
